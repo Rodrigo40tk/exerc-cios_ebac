@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar Campo A e Campo B</title>
+    <link rel="stylesheet" href="src/main.css" />
+</head>
+
+<body>
+    <div class="corpo">
+        <div class="container">
+            <h1>Validação de Campos</h1>
+            <h2>Campo A - Campo B</h2>
+            <form id="meuFormulario">
+                <input type="number" id="campoA" required placeholder="Campo A" />
+                <input type="number" id="campoB" required placeholder="Campo B" />
+                <button id="btn-validar" type="submit">Validar</button>
+            </form>
+        </div>
+    </div>
+    <p class="error" id="message"></p>
+    <script src="src/main.js"></script>
+</body>
+
+</html>
