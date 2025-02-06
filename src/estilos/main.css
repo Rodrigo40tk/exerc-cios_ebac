@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", serif;
+
+}
+
+body {
+    width: 35%;
+    margin: 1% auto;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 9px;
+    font-size: 14px;
+
+}
+
+div div{
+background-color: rgb(217, 221, 220);
+padding-bottom: 50%;
+}
+
+.formulario{
+padding-left: 19%;
+;
+}
+
+input,
+.button {
+    margin-top: 30px;
+    text-align: center;
+    width: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+
+
+}
+button{
+    color: #fff;
+    background-color:#0072BE ;
+    border-radius: 10px;
+    padding: 9px;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
+
+.table {
+    margin: 3% auto;
+}
+
+ul{
+    cursor: pointer;
+    padding-bottom: 10px; 
+}
+.line-through {
+    text-decoration: line-through;
+}
